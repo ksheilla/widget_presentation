@@ -20,9 +20,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-///
-/// Real-world use case: a slide-out panel (e.g. filters, notifications)
-/// that animates in and out. We demonstrate [position] and [transformHitTests].
 class SlideTransitionDemoPage extends StatefulWidget {
   const SlideTransitionDemoPage({super.key});
 
@@ -97,7 +94,6 @@ class _SlideTransitionDemoPageState extends State<SlideTransitionDemoPage>
       ),
       body: Stack(
         children: [
-          // Controls card (behind)
           SafeArea(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(12),
