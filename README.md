@@ -9,7 +9,7 @@ A Flutter application demonstrating the **SlideTransition** widget, which animat
 2. Navigate to the folder: `cd widget_presentation`
 3. Run the app: `flutter run`
 
-## 🛠 Key Attributes
+## Key Attributes Relevant To The Widget
 * **position**: Takes an `Animation<Offset>` that defines the path and distance the widget slides.
 * **child**: The widget that will be animated (in this demo, a styled Container).
 * **textDirection**: (Optional) Determines the direction of the horizontal offset (useful for RTL languages).
