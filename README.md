@@ -1,16 +1,19 @@
 # flutter_presentation
 
-A new Flutter project.
+# SlideTransition Widget Demo
 
-## Getting Started
+A Flutter application demonstrating the **SlideTransition** widget, which animates the position of a child widget relative to its normal position using an `Animation<Offset>`.
 
-This project is a starting point for a Flutter application.
+##  How to Run the SlideTransition Widget.
+1. Clone this repository: `git clone https://github.com/ksheilla/widget_presentation.git`
+2. Navigate to the folder: `cd widget_presentation`
+3. Run the app: `flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Key Attributes
+* **position**: Takes an `Animation<Offset>` that defines the path and distance the widget slides.
+* **child**: The widget that will be animated (in this demo, a styled Container).
+* **textDirection**: (Optional) Determines the direction of the horizontal offset (useful for RTL languages).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Preview
+<img width="162" height="338" alt="image" src="https://github.com/user-attachments/assets/4389f0ad-f8f2-4785-a091-ece4800a5b53" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
